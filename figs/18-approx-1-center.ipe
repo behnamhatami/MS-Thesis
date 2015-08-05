@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70005" creator="Ipe 7.1.4">
-<info created="D:20150803005804" modified="D:20150804181301"/>
+<info created="D:20150804180003" modified="D:20150804181432"/>
 <ipestyle name="basic">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -232,19 +232,29 @@ h
 <page>
 <layer name="alpha"/>
 <view layers="alpha" active="alpha"/>
-<path layer="alpha" stroke="navy">
-45.2548 0 0 45.2548 144 656 e
+<path layer="alpha" stroke="navy" pen="heavier">
+80 0 0 80 128 704 e
 </path>
-<path stroke="navy">
-35.7771 0 0 35.7771 176 656 e
+<use name="mark/disk(sx)" pos="128 704" size="normal" stroke="black"/>
+<path stroke="navy" pen="heavier">
+64 0 0 64 176 688 e
 </path>
-<text transformations="translations" pos="208 688" stroke="black" type="label" valign="baseline" size="large">$B^*$</text>
-<text matrix="1 0 0 1 -112 0" transformations="translations" pos="208 688" stroke="black" type="label" valign="baseline" size="large">$B$</text>
-<use name="mark/disk(sx)" pos="144 656" size="normal" stroke="black"/>
-<use name="mark/disk(sx)" pos="176 656" size="normal" stroke="black"/>
-<use name="mark/disk(sx)" pos="202.578 675.745" size="normal" stroke="black"/>
-<text transformations="translations" pos="148.435 657.926" stroke="black" type="label" valign="baseline" size="large">$c$</text>
-<text matrix="1 0 0 1 28.0995 0.685462" transformations="translations" pos="148.435 657.926" stroke="black" type="label" valign="baseline" size="large">$c^*$</text>
-<text matrix="1 0 0 1 45.9188 18.5041" transformations="translations" pos="148.435 657.926" stroke="black" type="label" valign="baseline" size="large">$q$</text>
+<use name="mark/disk(sx)" pos="224 688" size="normal" stroke="black"/>
+<text transformations="translations" pos="144 784" stroke="black" type="label" width="42.848" height="8.965" depth="2.99" valign="baseline" size="large">$B(p_1, r&apos;)$</text>
+<use name="mark/disk(sx)" pos="176 688" size="normal" stroke="black"/>
+<path stroke="black">
+128 704 m
+224 688 l
+</path>
+<use name="mark/disk(sx)" pos="167.838 697.36" size="normal" stroke="black"/>
+<text transformations="translations" pos="170.597 701.748" stroke="black" type="label" width="5.038" height="5.147" depth="0" valign="baseline" size="large">$c$</text>
+<path stroke="navy" pen="heavier">
+120.128 0 0 120.128 167.546 697.297 e
+</path>
+<text matrix="1 0 0 1 2.10455 -9.44212" transformations="translations" pos="176 688" stroke="black" type="label" width="9.77" height="8.047" depth="0" valign="baseline" size="large">$c^*$</text>
+<text matrix="1 0 0 1 -22.0847 45.2471" transformations="translations" pos="247.126 683.284" stroke="black" type="label" width="48.68" height="8.965" depth="2.99" valign="baseline" size="large">$B^*(c^*, r^*)$</text>
+<text matrix="1 0 0 1 -9.69593 -11.3115" transformations="translations" pos="272.458 779.539" stroke="black" type="label" width="46.699" height="9.846" depth="4.12" valign="baseline" size="large">$B&apos;(c, \frac{3}{2}r&apos;)$</text>
+<text matrix="1 0 0 1 -7.54118 -0.80777" transformations="translations" pos="134.728 710.699" stroke="black" type="label" width="10.607" height="5.152" depth="2.32" valign="baseline" size="large">$p_1$</text>
+<text matrix="1 0 0 1 1.8851 -6.73356" transformations="translations" pos="224 688" stroke="black" type="label" width="5.619" height="5.152" depth="2.32" valign="baseline" size="large">$q$</text>
 </page>
 </ipe>
