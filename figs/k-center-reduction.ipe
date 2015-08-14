@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70005" creator="Ipe 7.1.4">
-<info created="D:20150718163603" modified="D:20150718164159"/>
+<info created="D:20150718163603" modified="D:20150814140610"/>
 <ipestyle name="basic">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -202,13 +202,13 @@ h
 <dashstyle name="dash dotted" value="[4 2 1 2] 0"/>
 <dashstyle name="dash dot dotted" value="[4 2 1 2 1 2] 0"/>
 <textsize name="large" value="\large"/>
+<textsize name="small" value="\small"/>
+<textsize name="tiny" value="\tiny"/>
 <textsize name="Large" value="\Large"/>
 <textsize name="LARGE" value="\LARGE"/>
 <textsize name="huge" value="\huge"/>
 <textsize name="Huge" value="\Huge"/>
-<textsize name="small" value="\small"/>
 <textsize name="footnote" value="\footnotesize"/>
-<textsize name="tiny" value="\tiny"/>
 <textstyle name="center" begin="\begin{center}" end="\end{center}"/>
 <textstyle name="itemize" begin="\begin{itemize}" end="\end{itemize}"/>
 <textstyle name="item" begin="\begin{itemize}\item{}" end="\end{itemize}"/>
@@ -308,38 +308,38 @@ h
 128 720 m
 160 688 l
 </path>
-<path matrix="1 0 0 1 -48 0" stroke="navy">
+<path matrix="1 0 0 1 -48 0" stroke="navy" dash="dash dotted">
 272 688 m
 352 736 l
 352 736 l
 </path>
-<path matrix="1 0 0 1 -48 0" stroke="navy">
+<path matrix="1 0 0 1 -48 0" stroke="navy" dash="dash dotted">
 336 688 m
 352 736 l
 </path>
-<path matrix="1 0 0 1 -48 0" stroke="navy">
+<path matrix="1 0 0 1 -48 0" stroke="navy" dash="dash dotted">
 304 720 m
 272 688 l
 </path>
-<path matrix="1 0 0 1 -48 0" stroke="navy">
+<path matrix="1 0 0 1 -48 0" stroke="navy" dash="dash dotted">
 304 720 m
 256 736 l
 </path>
-<path matrix="1 0 0 1 -48 0" stroke="navy">
+<path matrix="1 0 0 1 -48 0" stroke="navy" dash="dash dotted">
 304 720 m
 304 768 l
 304 768 l
 </path>
-<path matrix="1 0 0 1 -48 0" stroke="navy">
+<path matrix="1 0 0 1 -48 0" stroke="navy" dash="dash dotted">
 304 768 m
 336 688 l
 336 688 l
 </path>
-<path matrix="1 0 0 1 -48 0" stroke="navy">
+<path matrix="1 0 0 1 -48 0" stroke="navy" dash="dash dotted">
 256 736 m
 336 688 l
 </path>
-<path matrix="1 0 0 1 -48 0" stroke="navy">
+<path matrix="1 0 0 1 -48 0" stroke="navy" dash="dash dotted">
 256 736 m
 352 736 l
 </path>
